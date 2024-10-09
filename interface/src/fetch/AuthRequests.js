@@ -79,6 +79,9 @@ class AuthRequests {
         localStorage.removeItem('username');
         // remove o idPessoa do localstorage
         localStorage.removeItem('idPessoa');
+        //remove o idPessoa do localstorage
+        //remove o idPessoa do localstorage
+        localStorage.removeItem('idUsuario');
         // redireciona o usuário para a página Home
         window.location.href = '/';
     }
